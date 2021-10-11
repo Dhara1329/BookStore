@@ -1,0 +1,27 @@
+{% load static %}
+
+<html>
+	<head>
+		<center>
+			<a href='/mybooks'>My Books</a>
+			<a href='/myfriends'>My Friends</a>
+			<a href='/myhobbies'>My Hobbies</a>
+			<a href='/mymovie'>My Movies</a>
+			<a href='/mymusic'>My Music</a>
+			<a href='/myplace'>My Places</a>
+		
+			<h1>Home page</h1>
+			<h3>Welcome : {{ name }}</h3>
+		</center>
+	</head>
+	
+	<body>
+	<img src="{% static 'Images/flower.jpg' %}" width="40%" height="40%">
+	
+		<ul type="round">
+			<li>Name : {{ name }}
+			<li>City : {{ city }}
+			<li>contact : {{ contact }}
+		</ul>
+	</body>
+</html>

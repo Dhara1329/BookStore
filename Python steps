@@ -1,0 +1,13 @@
+Steps:
+	step 1 : django-admin startproject third
+	Step 3 : ls ->cd third -> ls
+	Step 4 : python3 manage.py runserver
+	Step 5 : python3 manage.py startapp insidethird
+	
+to add image 
+	Create Folder 'static' in myapp folder
+
+
+'''python3 manage.py migrate (DB linking)'''
+
+'''python3 manage.py createsuperuser (create user)'''
